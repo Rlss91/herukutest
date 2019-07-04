@@ -10,7 +10,7 @@ const jsonParser = bodyParser.json()
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.get('/', (req, res)=>{
-    res.send("first haruku project")
+    res.send("first haruku project!")
 })
 
 app.listen(PORT)
